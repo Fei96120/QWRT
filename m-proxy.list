@@ -1,0 +1,63 @@
+payload:
+  # ------------------------------------- 完整域名匹配 (DOMAIN) ------------------------------------- ↓
+  - DOMAIN,adrules.top                      # AdGuard Home 常用广告拦截下载域名
+  - DOMAIN,anti-ad.net                      # 
+  - DOMAIN,whois.arin.net                   # 
+  - DOMAIN,checkip.dyndns.com               # 
+  - DOMAIN,static.adtidy.org                # AdGuard Home 检查更新域名
+  - DOMAIN,adguardteam.github.io            # AdGuard Home 自带 DNS 黑名单下载域名
+  - DOMAIN,movie.xeton.dev                  # 
+  - DOMAIN,aweme.snssdk.com                 # 
+  - DOMAIN,xl.baililai.xyz                  # 百利来·小利特惠
+  - DOMAIN,ecomuser.snssdk.com              # 
+  - DOMAIN,www.louwangzhiyu.xyz             # 机场_鱼塘
+  - DOMAIN,sct.staticj.top                  # 
+  - DOMAIN,awscn.okpool.top                 # oe
+  - DOMAIN,yeyu2048.xyz                     # 夜雨小屋
+  - DOMAIN,download.ebz.epson.net           # 
+
+  # ---------------------------------- 域名后缀匹配 (DOMAIN-SUFFIX) ---------------------------------- ↓
+  - DOMAIN-SUFFIX,cos.cat                   # 
+  - DOMAIN-SUFFIX,giscus.app                # 
+  - DOMAIN-SUFFIX,winscp.net                # WinSCP
+  - DOMAIN-SUFFIX,ovnrain.com               # 
+  - DOMAIN-SUFFIX,coding.tools              # 
+  - DOMAIN-SUFFIX,joinhoney.com             # 
+  - DOMAIN-SUFFIX,greasyfork.org            # 油猴
+  - DOMAIN-SUFFIX,packagecontrol.io         # 
+  - DOMAIN-SUFFIX,api.revenuecat.com        # 
+  - DOMAIN-SUFFIX,appsflyersdk.com          # oe
+  - DOMAIN-SUFFIX,amplitudeexperiment.com   # oe
+
+  # --------------------------------- 域名关键字匹配 (DOMAIN-KEYWORD) --------------------------------- ↓
+  - DOMAIN-KEYWORD,disney                   # 
+  - DOMAIN-KEYWORD,nflxso                   # 
+  - DOMAIN-KEYWORD,netflix                  # 
+  - DOMAIN-KEYWORD,nflxvideo                # 
+  - DOMAIN-KEYWORD,github                   # 
+  - DOMAIN-KEYWORD,movie                    # 
+  - DOMAIN-KEYWORD,xeton                    # 
+  - DOMAIN-KEYWORD,aweme                    # 
+  - DOMAIN-KEYWORD,snssdk                   # 
+  - DOMAIN-KEYWORD,okpool                   # oe
+  - DOMAIN-KEYWORD,relay                    # oe
+  - DOMAIN-KEYWORD,tampermonkey             # 油猴
+  - DOMAIN-KEYWORD,hcfy                     # 划词翻译
+  - DOMAIN-KEYWORD,baililai                 # 百利来·小利特惠
+  - DOMAIN-KEYWORD,proxy                    # 代理
+  - DOMAIN-KEYWORD,phicdn                   # Mac
+  - DOMAIN-KEYWORD,globalsign               # iTV 7
+  - DOMAIN-KEYWORD,shinkansen               # 机场_Ai
+  - DOMAIN-KEYWORD,louwangzhiyu             # 机场_鱼塘
+
+  # -------------------------------------- IP CIDR 匹配 (IP-CIDR) -------------------------------------- ↓
+  - IP-CIDR,84.16.73.33/30                  # AdGuard Home
+  - IP-CIDR,162.159.200.123/30              # AdGuard Home
+  - IP-CIDR,47.90.76.77/22                  # 谷歌
+  - IP-CIDR,142.250.0.1/15                  # 谷歌
+  - IP-CIDR,154.82.100.136/24               # 谷歌
+  - IP-CIDR,91.108.56.186/30                # 
+  - IP-CIDR,5.79.108.34/30                  # 
+  - IP-CIDR,95.111.202.5/30                 # 
+  - IP-CIDR,199.16.158.9/24                 # 
+  - IP-CIDR,193.182.111.12/30               # 
