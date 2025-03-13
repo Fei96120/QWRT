@@ -1,0 +1,12 @@
+payload:
+  
+  # ------------------- 起源 IP 段匹配 (内网 局域网 IP ------------ ↓
+  - SRC-IP-CIDR,10.31.0.33                         # He
+  - SRC-IP-CIDR,172.16.0.33                        # He
+  - SRC-IP-CIDR,192.168.0.33                       # He
+  - SRC-IP-CIDR,26.146.140.33                      # He
+
+  - SRC-IP-CIDR,10.31.0.128/25                     # loT
+  - SRC-IP-CIDR,172.16.0.128/25                    # loT
+  - SRC-IP-CIDR,192.168.0.128/25                   # loT
+  - SRC-IP-CIDR,26.146.140.128/25                  # loT
