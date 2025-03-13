@@ -1,0 +1,37 @@
+payload:
+  # ------------------------------------- 完整域名匹配 (DOMAIN) ------------------------------------- ↓
+  - DOMAIN,temby856.285286.xyz          # Temby
+  - DOMAIN,emby.bangumi.ca              # Nay
+  - DOMAIN,media.nijigem.by             # 二次元
+  - DOMAIN,emby.imetyou.top             # 电报服 随机线路
+  - DOMAIN,fk.imetyou.top               # 电报服 落地机线路
+  - DOMAIN,cf.imetyou.top               # 电报服 cf线路
+  - DOMAIN,kr.imetyou.top               # 电报服 首尔中转
+  - DOMAIN,sg.imetyou.top               # 电报服 新加坡
+  - DOMAIN,chun.imetyou.top             # 电报服 春川
+  - DOMAIN,cf.gtlx.org                  # 瓜田李下
+  - DOMAIN,ushd.xmsl.org                # 瓜田李下
+  - DOMAIN,h5.globalhub.vip             # 小利特惠
+  - DOMAIN,1.4545.cf                    # 佛系EMBY
+  - DOMAIN,look.bigmelook.com           # 大米emby
+  - DOMAIN,looking.bigmelook.com        # 大米emby
+  - DOMAIN,hka-emby.aliz.work           # HKA Emby-自建公益服 8096
+  - DOMAIN,hka-emby1.aliz.work          # HKA Emby-自建公益服 443
+  - DOMAIN,hka-emby2.aliz.work          # HKA Emby-自建公益服 443
+  - DOMAIN,emby.plusmedia.site          # 普拉斯影业
+  - DOMAIN,cf.jmsooo.com                # 卷毛鼠公益
+  - DOMAIN,cf1.jmsuper.com              # 卷毛鼠公益_备用
+  - DOMAIN,cf2.jmsooo.com               # 卷毛鼠公益2
+  - DOMAIN,cf2.jmsuper.com              # 卷毛鼠公益2_备用
+  - DOMAIN,455536473.hiecheimaetu.com   # 微柠a9
+
+  # ---------------------------------- 域名关键字匹配 (DOMAIN-KEYWORD) ---------------------------------- ↓
+  - DOMAIN-KEYWORD,emby                 # Emby
+  - DOMAIN-KEYWORD,temby                # Temby
+  - DOMAIN-KEYWORD,bangumi              # Nay
+  - DOMAIN-KEYWORD,nijigem              # 二次元
+  - DOMAIN-KEYWORD,imetyou              # 电报服 随机线路
+  - DOMAIN-KEYWORD,globalhub            # 小利特惠
+
+  # -------------------------------------- IP CIDR 匹配 (IP-CIDR) -------------------------------------- ↓
+  - IP-CIDR,104.194.8.196/32            # 微柠a9
