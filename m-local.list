@@ -1,0 +1,26 @@
+payload:
+  # ------------------------------------- 完整域名匹配 (DOMAIN) ------------------------------------- ↓
+  - DOMAIN,wp.upx8.com                           # 自定义背景 URL
+  - DOMAIN,board.zash.run.place                  # zashboard 面板
+  - DOMAIN,nos.gameyw.easebar.com                # 
+  - DOMAIN,ifconfig.me                           # 铁威马
+  - DOMAIN,ip4.seeip.org                         # 铁威马
+  - DOMAIN,www.tnas.online                       # 铁威马
+  - DOMAIN,myexternalip.com                      # 铁威马
+
+  # ---------------------------------- 域名后缀匹配 (DOMAIN-SUFFIX) ---------------------------------- ↓
+  - DOMAIN-SUFFIX,com.cn                         # 中国域名后缀
+  - DOMAIN-SUFFIX,miwifi.com                     # 小米Wi-Fi
+  - DOMAIN-SUFFIX,epson324c4c.local              # 打印机
+
+  # --------------------------------- 域名关键字匹配 (DOMAIN-KEYWORD) --------------------------------- ↓
+  - DOMAIN-KEYWORD,gnmobile                      # 
+  - DOMAIN-KEYWORD,miwifi                        # 
+  - DOMAIN-KEYWORD,fileball                      # 
+  - DOMAIN-KEYWORD,pushdeer                      # 
+
+  # -------------------------------------- IP CIDR 匹配 (IP-CIDR) -------------------------------------- ↓
+  - IP-CIDR,10.31.0.1/22                         # 0.1~3.254
+  - IP-CIDR,172.16.0.1/22                        # 0.1~3.254
+  - IP-CIDR,192.168.0.1/16                       # 0.1~255.254
+  - IP-CIDR,26.146.140.1/22                      # 140.1~143.254
